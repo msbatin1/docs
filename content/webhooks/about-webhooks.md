@@ -1,4 +1,8 @@
----
+---git rebase [-i | --interactive] [<options>] [--exec <cmd>]
+        [--onto <newbase> | --keep-base] [<upstream> [<branch>]]
+git rebase [-i | --interactive] [<options>] [--exec <cmd>] [--onto <newbase>]
+        --root [<branch>]
+git rebase (--continue|--skip|--abort|--quit|--edit-todo|--show-current-patch)
 title: About webhooks
 intro: 'Webhooks provide a way for notifications to be delivered to an external web server whenever certain events occur on {% data variables.product.company_short %}.'
 redirect_from:
